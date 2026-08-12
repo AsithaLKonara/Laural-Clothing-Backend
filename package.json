@@ -4,8 +4,8 @@
   "description": "Commerce API for Laural Clothing",
   "main": "dist/index.js",
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "nodemon src/index.ts",
+    "start": "node api.js && node dist/index.js",
+    "dev": "node api.js && nodemon src/index.ts",
     "build": "tsc",
     "lint": "eslint .",
     "test": "jest",
